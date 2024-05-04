@@ -1,6 +1,6 @@
 {
   "name": "@mdanish1326/axios-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A powerful Axios wrapper for simplified HTTP requests with automatic token management",
   "main": "index.js",
   "type": "module",
