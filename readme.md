@@ -1,6 +1,6 @@
-# WrapeAxios
+# axios-wrapper
 
-WrapeAxios is a JavaScript library that provides an easy-to-use wrapper the popular HTTP client, Axios. It is designed to handle token-based authentication and automatic token refresh for RESTful APIs. This wrapper simplifies the process of setting up Axios instances with built-in interceptors for request and response handling, especially for private endpoints that require authentication.
+axios-wrapper is a JavaScript library that provides an easy-to-use wrapper the popular HTTP client, Axios. It is designed to handle token-based authentication and automatic token refresh for RESTful APIs. This wrapper simplifies the process of setting up Axios instances with built-in interceptors for request and response handling, especially for private endpoints that require authentication.
 
 ## Features
 
@@ -13,14 +13,14 @@ WrapeAxios is a JavaScript library that provides an easy-to-use wrapper the popu
 
 ## Installation
 
-To install WrapeAxios, you can use npm (Node Package Manager). Run the following command in your project directory:
+To install axios-wrapper, you can use npm (Node Package Manager). Run the following command in your project directory:
 ```
-npm install wrape-axios
+npm install @mdanish1326/axios-wrapper
 ```
 
 ## Usage
 
-### Importing WrapeAxios
+### Importing axios-wrapper
 
 First, import WrapeAxios into your JavaScript file:
 ```
@@ -55,7 +55,7 @@ api.get("/users")
 
 ## Contributing
 
-If you'd like to contribute to the development of WrapeAxios, please follow the standard GitHub fork and pull request workflow.
+If you'd like to contribute to the development of axios-wrapper, please follow the standard GitHub fork and pull request workflow.
 
 1. Fork the repository on GitHub.
 2. Clone your forked repository to your local machine.
@@ -66,7 +66,7 @@ If you'd like to contribute to the development of WrapeAxios, please follow the 
 
 ## GitHub Repository
 
-The source code for WrapeAxios is hosted on GitHub. You can view, fork, or contribute to the project here:
+The source code for axios-wrapper is hosted on GitHub. You can view, fork, or contribute to the project here:
 
 [AxiosWrapper GitHub Repository](https://github.com/mdanish1326/axios-wrapper)
 
