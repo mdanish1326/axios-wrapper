@@ -44,7 +44,20 @@ const wrapeAxios = new WrapeAxios({
 
 To make API calls using the configured instance, call the `useWrapeAxios` method with the desired endpoint and options:
 ```
-api.get("/users")
+const api = wrapeAxios.useWrapeAxios({
+  endpoint: "/users",
+  isPrivate: true, // Set to false if the endpoint does not require authentication
+  headers: {
+    "Content-Type": "application/json", // Optional: Additional headers
+  },
+});
+```
+
+### Making Requests
+
+With the returned Axios instance, you can make requests as you normally would with Axios:
+```
+api.get()
   .then(response => {
     console.log(response.data); // Handle the response data
   })
