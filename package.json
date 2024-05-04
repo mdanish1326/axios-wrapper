@@ -7,7 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "git repository": "https://github.com/mdanish1326/axios-wrapper.git",
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/mdanish1326/axios-wrapper"
+  },
   "keywords": [
     "axios",
     "http",
