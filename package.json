@@ -1,5 +1,5 @@
 {
-  "name": "axios-wrapper",
+  "name": "@mdanish1326/axios-wrapper",
   "version": "1.0.0",
   "description": "A powerful Axios wrapper for simplified HTTP requests with automatic token management",
   "main": "index.js",
@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "git repository": "https://github.com/mdanish1326/axios-wrapper.git",
   "keywords": ["axios", "http", "wrapper", "token", "authentication"],
   "author": "Mohd Danish",
   "license": "ISC",
